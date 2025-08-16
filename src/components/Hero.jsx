@@ -2,7 +2,7 @@ import React, { useCallback } from 'react';
 import { motion } from 'framer-motion';
 import Particles from 'react-tsparticles';
 import { loadFull } from 'tsparticles';
-import './hero.css'; // keep for the section sizing if you want
+import './hero.css';
 
 export default function Hero() {
   const particlesInit = useCallback(async (engine) => { await loadFull(engine); }, []);
@@ -11,7 +11,7 @@ export default function Hero() {
     <section
       id="home"
       className="relative min-h-screen flex flex-col justify-center"
-      style={{ paddingTop: '96px' }} // keeps space under fixed nav
+      style={{ paddingTop: '96px' }}
     >
       <div className="hero-gradient" />
 

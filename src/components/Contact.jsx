@@ -1,17 +1,17 @@
-import React from 'react'
-import { FaInstagram, FaLinkedin } from 'react-icons/fa'
-import { MdEmail } from 'react-icons/md'
+import React from 'react';
+import { FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { MdEmail } from 'react-icons/md';
 
 export default function Contact() {
-  const email = 'juweriahabdulraheem@gmail.com'
-  const instagramUrl = 'https://www.instagram.com/juweri.ah'
-  const linkedinUrl = 'https://www.linkedin.com/in/juweriahabdulraheem'
+  const email = 'juweriahabdulraheem@gmail.com';
+  const instagramUrl = 'https://www.instagram.com/juweri.ah';
+  const linkedinUrl = 'https://www.linkedin.com/in/juweriahabdulraheem';
 
   return (
     <section
       id="contact"
       className="py-20 text-center text-white"
-      style={{ backgroundColor: '#9E2A2B' }} 
+      style={{ backgroundColor: '#9E2A2B' }}
     >
       <h2 className="text-4xl font-bold mb-6 text-accent">Get In Touch</h2>
       <p className="text-gray-300 mb-8">Have a project in mind or want to connect?</p>
@@ -47,5 +47,5 @@ export default function Contact() {
         </a>
       </div>
     </section>
-  )
+  );
 }

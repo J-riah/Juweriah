@@ -1,9 +1,9 @@
-import React from 'react'
-import { motion } from 'framer-motion'
+import React from 'react';
+import { motion } from 'framer-motion';
 
 const projects = [
   { title: 'AI-PRA', desc: 'AI Powered Resume Analyser', link: 'https://github.com/J-riah/AI-PRA' }
-]
+];
 
 export default function Projects() {
   return (
@@ -18,12 +18,12 @@ export default function Projects() {
           >
             <h3 className="text-2xl font-semibold text-text mb-2">{p.title}</h3>
             <p className="text-muted">{p.desc}</p>
-            <a href={p.link} className="text-accent mt-4 inline-block hover:underline">
+            <a href={p.link} className="text-accent mt-4 inline-block hover:underline" target="_blank" rel="noreferrer">
               View Project
             </a>
           </motion.div>
         ))}
       </div>
     </section>
-  )
+  );
 }

@@ -3,6 +3,8 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
+  "homepage": "https://J-riah.github.io/Juweriah",
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -27,3 +29,4 @@
     "vite": "^5.2.0"
   }
 }
+
