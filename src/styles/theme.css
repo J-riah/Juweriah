@@ -1,0 +1,52 @@
+:root{
+  --bg: #0D0B10;
+  --surface: #161217;
+  --text: #EDE7E3;
+  --muted: #A8A2AA;
+  --accent: #C5A572;
+  --accent-2: #9E2A2B;
+  --border: rgba(197,165,114,.28);
+}
+
+html, body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.h-heading { font-family: 'Cinzel', ui-serif, Georgia, serif; letter-spacing:.4px; }
+
+.text-accent { color: var(--accent); }
+.btn-accent {
+  background: var(--accent);
+  color: #0E0B12;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: .75rem 1.25rem;
+  transition: transform .15s ease, box-shadow .15s ease, filter .15s ease;
+}
+.btn-accent:hover { transform: translateY(-1px); filter: brightness(1.03); box-shadow: 0 10px 24px rgba(197,165,114,.15); }
+
+.card-surface {
+  background: linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.015));
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  backdrop-filter: blur(6px);
+}
+
+.hero-gradient {
+  position:absolute; inset:0; z-index:-2;
+  background:
+    radial-gradient(900px 900px at 80% -10%, rgba(156,47,59,.22), transparent 60%),
+    radial-gradient(800px 800px at -10% 110%, rgba(71,31,49,.22), transparent 55%),
+    linear-gradient(180deg, #0D0B10, #0D0B10);
+}
+
+html, body {
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+section {
+  background-color: var(--bg);
+}
